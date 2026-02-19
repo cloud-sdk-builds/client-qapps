@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-qapps`](https://www.npmjs.com/package/@aws-sdk/client-qapps/v/3.940.0).
+[`@aws-sdk/client-qapps`](https://www.npmjs.com/package/@aws-sdk/client-qapps/v/3.943.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-qapps@3.940.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-qapps@3.943.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-HsLpqYwRmd8brERlGg6CTx+duoQ9nJY9iCxII3dEx4Brz/aJj7KTg52UwABTlvoF
+sha384-WiS/YKqsyqqiz3oaTQa02Ej4JYu78zpOX5//isMP1OwnF8Hrx8Cqw+q9EBT8fCQr
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-qapps": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-qapps@3.940.0/index.min.mjs"
+            "@aws-sdk/client-qapps": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-qapps@3.943.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-qapps@3.940.0/index.min.mjs": "sha384-HsLpqYwRmd8brERlGg6CTx+duoQ9nJY9iCxII3dEx4Brz/aJj7KTg52UwABTlvoF"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-qapps@3.943.0/index.min.mjs": "sha384-WiS/YKqsyqqiz3oaTQa02Ej4JYu78zpOX5//isMP1OwnF8Hrx8Cqw+q9EBT8fCQr"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-qapps": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-qapps@3.940.0/index.min.mjs"
+                        "@aws-sdk/client-qapps": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-qapps@3.943.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-qapps@3.940.0/index.min.mjs": "sha384-HsLpqYwRmd8brERlGg6CTx+duoQ9nJY9iCxII3dEx4Brz/aJj7KTg52UwABTlvoF"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-qapps@3.943.0/index.min.mjs": "sha384-WiS/YKqsyqqiz3oaTQa02Ej4JYu78zpOX5//isMP1OwnF8Hrx8Cqw+q9EBT8fCQr"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.940.0`)
+* Always pin to a specific version (`@3.943.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-qapps/blob/refs/tags/3.940.0/LICENSE
+https://github.com/cloud-sdk-builds/client-qapps/blob/refs/tags/3.943.0/LICENSE
 ```
 
 ---
